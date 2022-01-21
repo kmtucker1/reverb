@@ -1,0 +1,16 @@
+.fm {
+    color: orange;
+    outline-color: orange;
+    border: 2.5px solid orange;
+    background: white;
+
+    border-radius: 5px;
+    padding: 0px;
+
+    width: 135px;
+    height: 35px;
+    font-family: sans-serif;
+    font-weight: 549.5;
+
+
+}
