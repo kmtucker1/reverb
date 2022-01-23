@@ -14,3 +14,10 @@
 
 
 }
+.hoverbutton {
+    color: black;
+    font-size: 10px;
+}
+.hoverbuttonr:hover {
+    color: orange;
+}
