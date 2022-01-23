@@ -1,3 +1,11 @@
+.buttonhover {
+    color: black;
+    font-size: 10px;
+}
+.buttonhover:hover {
+    color: orange;
+}
+
 .sellbutton {
     color: orange;
     outline-color: orange;
@@ -13,11 +21,4 @@
     font-weight: 549.5;
 
 
-}
-.hoverbutton {
-    color: black;
-    font-size: 10px;
-}
-.hoverbuttonr:hover {
-    color: orange;
 }

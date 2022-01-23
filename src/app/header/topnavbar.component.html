@@ -1,75 +1,86 @@
-<div class="container col-11">
+<div class="container-fluid">
   <div class="row justify-content-center">
-    <div class="col">
-      <nav class="navbar navbar-light bg-light nav-fill">
-        <div class="container-sm">
-          <a class="navbar-brand" href="#">
-            <img src="assets/reverblogo.png" alt="" width="100" height="33">
-          </a>
+    
+    <nav class="navbar navbar-light bg-light nav-fill justify-content-center">
+      <div class="container-xxl">
+      <!--navbar column 1-->
+      <div type="col" class="col col-9">
+        <!--search bar-->
+        <a class="navbar-brand" href="#">
+          <img src="assets/reverblogo.png" alt="" width="100" height="33">
+        </a>
+        <form class="d-flex col-2">
+          <input class="form-control me-0" type="search" placeholder="Search for used & new music gear..."
+            aria-label="Search">
+          <button class="btn btn-outline-secondary" type="submit"> <svg class="bi" width="18" height="20"
+              fill="currentColor">
+              <use xlink:href="assets/bootstrap-icons.svg#search" />
+            </svg></button>
+        </form>
 
-          <form class="d-flex col-4">
-            <input class="form-control me-6 col-2" type="search" placeholder="Search for used & new music gear..."
-              aria-label="Search">
-            <button class="btn btn-outline-secondary" type="submit"> <svg class="bi" width="18" height="20"
-                fill="currentColor">
-                <use xlink:href="assets/bootstrap-icons.svg#search" />
-              </svg></button>
-          </form>
 
-          <!--sell your gear button-->
-          <button class="sellbutton" type="button">Sell Your Gear</button>
+        <!--sell your gear button-->
+        <button class="sellbutton" type="button">Sell Your Gear</button>
 
-          <button type="button" class="btn hoverbutton">
-            <div class="col">
-              <div class="row hoverbutton justify-content-left">
-                <div class="col-7"><svg class="bi" width="23" height="23" fill="currentColor">
+      </div>
+      <!--navbar column 2-->
+      <div type="col" class="col col-3">
+        <!--star button v2.0-->
+        <button type="button" class="btn buttonhover">
+          <div class="col">
+            <div class="row justify-content-left">
+              <div class="col-9"><svg class="bi" width="23" height="23" fill="currentColor">
                   <use xlink:href="assets/bootstrap-icons.svg#star" />
                 </svg></div>
-              </div>
-              <div class="row justify-content-center">
-                watch list
-              </div>
             </div>
-          </button>
-
-          <button type="button" class="btn buttonhover">
-            Guitars
+            <div class="row justify-content-center">
+              watch list
+            </div>
+          </div>
         </button>
 
-          <!--star button-->
-          <a href="http://plungchingus.com">
-            <div class="row justify-content-left text-center row-cols-1 col-md-8">
-              <div class="col-7"><svg class="bi" width="23" height="23" fill="currentColor">
-                  <use xlink:href="assets/bootstrap-icons.svg#star" />
-                </svg></div>
-              <div class="col-7 ">Plng</div>
-            </div>
-          </a>
 
-
-          <!--grid button-->
-          <a href="http://plungchingus.com">
-            <div class="row justify-content-left text-center row-cols-1">
+        <!--grid button v2.0-->
+        <button type="button" class="btn buttonhover">
+          <div class="col">
+            <div class="row justify-content-left">
               <div class="col-7"><svg class="bi" width="23" height="23" fill="currentColor">
                   <use xlink:href="assets/bootstrap-icons.svg#grid-3x3" />
                 </svg></div>
-              <div class="col-7">Plng</div>
             </div>
-          </a>
+            <div class="row justify-content-center">
+              watch list
+            </div>
+          </div>
+        </button>
 
-          <!--cart button-->
-          <a href="http://plungchingus.com">
-            <div class="row justify-content-center text-center row-cols-1">
-              <div class="col"><svg class="bi" width="23" height="23" fill="currentColor">
+
+        <!--cart button v2.0-->
+        <button type="button" class="btn buttonhover">
+          <div class="col">
+            <div class="row justify-content-left">
+              <div class="col-7"><svg class="bi" width="23" height="23" fill="currentColor">
                   <use xlink:href="assets/bootstrap-icons.svg#cart" />
                 </svg></div>
-              <div class="col">Plng</div>
             </div>
-          </a>
+            <div class="row justify-content-center">
+              watch list
+            </div>
+          </div>
+        </button>
 
-        </div>
+        <!--sign up button-->
+        <button type="button" class="btn buttonhover">
+          sign up
+        </button>
+        <!--log in button-->
+        <button type="button" class="btn buttonhover">
+          log in
+        </button>
+      </div>
 
-      </nav>
     </div>
+    </nav>
   </div>
+
 </div>
