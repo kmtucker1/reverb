@@ -1,0 +1,7 @@
+.buttonhover {
+    color: black;
+    font-size: 10px;
+}
+.buttonhover:hover {
+    color: orange;
+}
