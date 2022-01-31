@@ -4,12 +4,30 @@
     background-color: rgb(255, 255, 255);
   }
 .salebar-title {
-    font-size: 30px;
+    font-size: 37px;
+    color: rgba(26, 25, 25, 0.815);
 }  
 .salebar-toptext {
     font-size: 20px;
+    color: rgba(26, 25, 25, 0.815);
 }
 .salebanner-background {
     height: 400px;
     width: 1400px;
+}
+.sale-button {
+    color: black;
+    outline-color: orange;
+    border: 2.5px solid black;
+    background: white;
+
+    border-radius: 5px;
+    padding: 3px;
+
+    width: 135px;
+    height: 35px;
+    font-family: sans-serif;
+    font-weight: 549.5;
+
+
 }

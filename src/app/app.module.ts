@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { TopNavBarComponent } from 'src/app/header/topnavbar.component'; 
 
 import { AppComponent } from './app.component';
+import { CardRowOneComponent } from './card-row-one/card.row.one.component';
 import { SecondTopNavBarComponent } from './header/second.topnavbar.component';
 import { SaleBannerComponent } from './salebanner/salebanner.component';
 
@@ -11,7 +12,8 @@ import { SaleBannerComponent } from './salebanner/salebanner.component';
     AppComponent,
     TopNavBarComponent,
     SecondTopNavBarComponent,
-    SaleBannerComponent
+    SaleBannerComponent,
+    CardRowOneComponent
   ],
   imports: [
     BrowserModule
