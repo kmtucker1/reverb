@@ -5,6 +5,7 @@ import { TopNavBarComponent } from 'src/app/header/topnavbar.component';
 import { AppComponent } from './app.component';
 import { CardRowOneComponent } from './card-row-one/card.row.one.component';
 import { SecondTopNavBarComponent } from './header/second.topnavbar.component';
+import { RecentViewRowComponent } from './recent-view-row/recent-view-row.component';
 import { SaleBannerComponent } from './salebanner/salebanner.component';
 
 @NgModule({
@@ -13,7 +14,8 @@ import { SaleBannerComponent } from './salebanner/salebanner.component';
     TopNavBarComponent,
     SecondTopNavBarComponent,
     SaleBannerComponent,
-    CardRowOneComponent
+    CardRowOneComponent,
+    RecentViewRowComponent
   ],
   imports: [
     BrowserModule
