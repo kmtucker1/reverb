@@ -7,6 +7,9 @@ import { CardRowOneComponent } from './card-row-one/card.row.one.component';
 import { SecondTopNavBarComponent } from './header/second.topnavbar.component';
 import { RecentViewRowComponent } from './recent-view-row/recent-view-row.component';
 import { SaleBannerComponent } from './salebanner/salebanner.component';
+import { AppRoutingModule } from './app-routing.module';
+import { SellYourGearLayoutComponent } from './sell-your-gear-layout/sell-your-gear-layout.component';
+import { HomeLayoutComponent } from './home-layout/home-layout.component';
 
 @NgModule({
   declarations: [
@@ -15,10 +18,13 @@ import { SaleBannerComponent } from './salebanner/salebanner.component';
     SecondTopNavBarComponent,
     SaleBannerComponent,
     CardRowOneComponent,
-    RecentViewRowComponent
+    RecentViewRowComponent,
+    SellYourGearLayoutComponent,
+    HomeLayoutComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

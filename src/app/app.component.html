@@ -1,14 +1,1 @@
-<fm-topnavbar>loading...</fm-topnavbar>
-<fm-second-topnavbar>loading...</fm-second-topnavbar>
-<fm-salebanner></fm-salebanner>
-<fm-card-row-one></fm-card-row-one>
-<div class="container recentviewrowtitle mt-5">
-    Recently Viewed Items
-</div>
-<div class="container_fluid d-flex justify-content-around align-items-start mt-0">
-    <div *ngFor="let product of products" >
-        <fm-recent-view-row class="mx-2" img = {{product.img}}
-        title = {{product.title}} [price] = 'product.price' condition = {{product.condition}}>
-        </fm-recent-view-row>
-    </div>
-</div>
+<router-outlet></router-outlet>

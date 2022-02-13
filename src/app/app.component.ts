@@ -9,12 +9,5 @@ import { ProductItemModel } from './recent-view-row/product-item.model';
 })
 export class AppComponent {
   title = 'reverb';
-  products: ProductItemModel[] = [];
-
-  constructor() {
-    for(var product of mock_product_list) {
-      console.log(product);
-      this.products.push(product);
-    } 
-  }
+  
 }
