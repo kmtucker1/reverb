@@ -10,6 +10,9 @@ import { SaleBannerComponent } from './salebanner/salebanner.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SellYourGearLayoutComponent } from './sell-your-gear-layout/sell-your-gear-layout.component';
 import { HomeLayoutComponent } from './home-layout/home-layout.component';
+import { WatchListLayoutComponent } from './watch-list-layout/watch-list-layout.component';
+import { MyFeedLayoutComponent } from './my-feed-layout/my-feed-layout.component';
+import { CartLayoutComponent } from './cart-layout/cart-layout.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { HomeLayoutComponent } from './home-layout/home-layout.component';
     CardRowOneComponent,
     RecentViewRowComponent,
     SellYourGearLayoutComponent,
-    HomeLayoutComponent
+    HomeLayoutComponent,
+    WatchListLayoutComponent,
+    MyFeedLayoutComponent,
+    CartLayoutComponent
   ],
   imports: [
     BrowserModule,

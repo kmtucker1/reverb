@@ -1,5 +1,15 @@
-Release Notes for 02/02/2022
+RELEASE NOTES FOR 02/02/2022
     added new component(recent-view-row).
     new component is a row that dispays the recently viewed items in a series of cards.
     the cards are generated programatically using databinding and for loops.
-    
+
+
+RELEASE NOTES FOR 02/15/2022
+    added router to app component
+    created 5 new layout components
+        cart-layout
+        home-layout
+        my-feed-layout
+        sell-your-gear-layout
+        watch-list-layout
+    moved components into "home-layout" to create new home page
