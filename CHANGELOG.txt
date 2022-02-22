@@ -13,3 +13,14 @@ RELEASE NOTES FOR 02/15/2022
         sell-your-gear-layout
         watch-list-layout
     moved components into "home-layout" to create new home page
+
+RELEASE NOTES FOR 02/22/2022
+    added 6 new components
+        3 new components in sell-your-gear-layout
+            searchbar
+            sell-info-card
+            learn-more-selling
+        2 new components in watch-list-layout
+            watch-list-navbar
+            horizontal item card (uses ng-for loop to create 6 cards)
+            footer

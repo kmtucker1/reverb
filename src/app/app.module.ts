@@ -13,6 +13,12 @@ import { HomeLayoutComponent } from './home-layout/home-layout.component';
 import { WatchListLayoutComponent } from './watch-list-layout/watch-list-layout.component';
 import { MyFeedLayoutComponent } from './my-feed-layout/my-feed-layout.component';
 import { CartLayoutComponent } from './cart-layout/cart-layout.component';
+import { HorizontalItemCardComponent } from './hotizontal-item-card/horizontal-item-card.component';
+import { FooterComponent } from './footer/footer.component';
+import { SearchbarComponent } from './searchbar/searchbar.component';
+import { SellInfoCardComponent } from './sell-info-card/sell-info-card.component';
+import { LearnMoreSellingComponent } from './learn-more-selling/learn-more-selling.component';
+import { WatchListNavbarComponent } from './watch-list-navbar/watch-list-navbar.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +32,13 @@ import { CartLayoutComponent } from './cart-layout/cart-layout.component';
     HomeLayoutComponent,
     WatchListLayoutComponent,
     MyFeedLayoutComponent,
-    CartLayoutComponent
+    CartLayoutComponent,
+    HorizontalItemCardComponent,
+    FooterComponent,
+    SearchbarComponent,
+    SellInfoCardComponent,
+    LearnMoreSellingComponent,
+    WatchListNavbarComponent
   ],
   imports: [
     BrowserModule,

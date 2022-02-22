@@ -1,1 +1,12 @@
-watch list
+<fm-topnavbar></fm-topnavbar>
+<fm-watch-list-navbar></fm-watch-list-navbar>
+<div class="container">
+    <div *ngFor="let product of products" >
+        <fm-horizontal-item-card class="mx-2" img = {{product.img}}
+        title = {{product.title}} [price] = 'product.price' condition = {{product.condition}}>
+        </fm-horizontal-item-card>
+    </div>
+</div>
+<div class="container">
+    <fm-footer></fm-footer>
+</div>
