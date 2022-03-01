@@ -14,7 +14,7 @@ RELEASE NOTES FOR 02/15/2022
         watch-list-layout
     moved components into "home-layout" to create new home page
 
-RELEASE NOTES FOR 02/22/2022
+RELEASE NOTES FOR 02/22/2022  (Lab-5 git-hub push)
     added 6 new components
         3 new components in sell-your-gear-layout
             searchbar
@@ -24,3 +24,16 @@ RELEASE NOTES FOR 02/22/2022
             watch-list-navbar
             horizontal item card (uses ng-for loop to create 6 cards)
             footer
+
+RELEASE NOTES FOR 03/01/2022 (Lab-6 git-hub push)
+    created firebase database. 
+    created user-info component
+        added UserInfo model & myInfo object
+        added database request 
+        populated userInfo object with data of type UserInfo from database
+    PROBLEMS:
+        myInfo is being populated with data, and is showing up properly in browser console.
+        *ngIf statements in user-info.html show that myData is NOT null and has data.
+        However, {{myInfo.FirstName}} & {{myInfo.LastName}} statements are not displaying data.
+
+

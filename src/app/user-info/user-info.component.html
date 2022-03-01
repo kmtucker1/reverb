@@ -1,0 +1,14 @@
+
+<p *ngIf="myInfo == undefined">
+    failed to fetch user-data
+</p>
+<div *ngIf="myInfo != undefined" class="container">
+    <div class="row">
+        <div class="col-3">
+            User: {{myInfo.FirstName}}
+        </div>
+        <div class="col-6">
+
+        </div>
+    </div>
+</div>

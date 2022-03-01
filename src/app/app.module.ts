@@ -19,6 +19,9 @@ import { SearchbarComponent } from './searchbar/searchbar.component';
 import { SellInfoCardComponent } from './sell-info-card/sell-info-card.component';
 import { LearnMoreSellingComponent } from './learn-more-selling/learn-more-selling.component';
 import { WatchListNavbarComponent } from './watch-list-navbar/watch-list-navbar.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import {HttpClientModule} from '@angular/common/http'
+
 
 @NgModule({
   declarations: [
@@ -38,11 +41,13 @@ import { WatchListNavbarComponent } from './watch-list-navbar/watch-list-navbar.
     SearchbarComponent,
     SellInfoCardComponent,
     LearnMoreSellingComponent,
-    WatchListNavbarComponent
+    WatchListNavbarComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
