@@ -28,12 +28,15 @@ RELEASE NOTES FOR 02/22/2022  (Lab-5 git-hub push)
 RELEASE NOTES FOR 03/01/2022 (Lab-6 git-hub push)
     created firebase database. 
     created user-info component
-        added UserInfo model & myInfo object
+        added UserInfo model "user-info.model.ts"
+            attributes:
+            FirstName,
+            LastName,
+            GitHub,
+            mix-id
+        added myInfo object to "user.info.component.ts"
+            stores the data from database
         added database request 
         populated userInfo object with data of type UserInfo from database
-    PROBLEMS:
-        myInfo is being populated with data, and is showing up properly in browser console.
-        *ngIf statements in user-info.html show that myData is NOT null and has data.
-        However, {{myInfo.FirstName}} & {{myInfo.LastName}} statements are not displaying data.
 
 
