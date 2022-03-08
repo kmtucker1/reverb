@@ -1,6 +1,7 @@
 import { Component } from "@angular/core";
 import { horizontal_card_list } from "../hotizontal-item-card/horizontal-card-list";
 import { ProductItemModel } from "../recent-view-row/product-item.model";
+import { ProductsService } from "../service/products.service";
 
 @Component({
     selector: "fm-watch-list-layout",
@@ -10,10 +11,17 @@ import { ProductItemModel } from "../recent-view-row/product-item.model";
 export class WatchListLayoutComponent {
     products: ProductItemModel[] = [];
 
-    constructor() {
-        for (var product of horizontal_card_list) {
+    constructor(private productsService:ProductsService) {
+        
+    }
+
+    ngOnInit(): void {
+        this.productsService.getProducts().subscribe(data => {
+          console.log(data);
+          for(var product of data) {
             console.log(product);
             this.products.push(product);
-        }
-    }
+          }
+        })
+      }
 }

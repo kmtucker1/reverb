@@ -26,7 +26,6 @@ export class UserInfoComponent implements OnInit {
     this.getUserInfo().subscribe((data: UserInfo) => {
       console.log(data);
       this.myInfo = data;
-      console.log(this.myInfo);
     })
   }
 }
