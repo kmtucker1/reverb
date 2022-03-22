@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "reverb-d1446"
+  },
+  "targets": {
+    "reverb-d1446": {
+      "hosting": {
+        "reverb": [
+          "reverb-d1446"
+        ]
+      }
+    }
+  }
+}

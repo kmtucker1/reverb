@@ -106,6 +106,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "reverb:build:production",
+            "firebaseProject": "reverb-d1446",
+            "firebaseHostingSite": "reverb-d1446"
+          }
         }
       }
     }

@@ -45,4 +45,9 @@ RELEASE NOTES FOR 03/08
         Added service component "product.service.ts" to folder
             provides endpoints for myInfo and Products
     Changed constructors in home-layout.component & watch-list-layout.component 
-    to use product.service instead of mock-list        
+    to use product.service instead of mock-list  
+
+
+RELEASE NOTES FOR 03/22      
+    changed 'products.services.ts' to use AngularFireDatabase instead of HTTPClient
+    added firebase hosting to project.
