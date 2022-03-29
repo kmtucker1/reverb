@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addProduct(postForm.value)">
+                <div class="imput-group">
+                    <span class="input-group-text">
+                        Image Path:   
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img">
+                </div>
+                <div class="imput-group">
+                    <span class="input-group-text">
+                        Title:   
+                    </span>
+                    <input type="text" class="form-control" ngModel name="title">
+                </div>
+                <div class="imput-group">
+                    <span class="input-group-text">
+                        Price   
+                    </span>
+                    <input type="text" class="form-control" ngModel name="price">
+                </div>
+                <div class="imput-group">
+                    <span class="input-group-text">
+                        Description   
+                    </span>
+                    <input type="text" class="form-control" ngModel name="description">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

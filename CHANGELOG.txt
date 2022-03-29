@@ -51,3 +51,9 @@ RELEASE NOTES FOR 03/08
 RELEASE NOTES FOR 03/22      
     changed 'products.services.ts' to use AngularFireDatabase instead of HTTPClient
     added firebase hosting to project.
+
+RELEASE NOTES FOR 03/29
+    created new component called "add-product"
+        this new component is used to add a new product to the database
+        it has a method addProduct() that sends user data to new method in services.
+        the services addProduct() sends data to the database.

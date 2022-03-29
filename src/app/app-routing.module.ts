@@ -6,6 +6,7 @@ import { HomeLayoutComponent } from './home-layout/home-layout.component';
 import { WatchListLayoutComponent } from './watch-list-layout/watch-list-layout.component';
 import { MyFeedLayoutComponent } from './my-feed-layout/my-feed-layout.component';
 import { CartLayoutComponent } from './cart-layout/cart-layout.component';
+import { AddProductComponent } from './add-product/add-product.component';
 
 const routes:Routes = [
   {path: '' , component: HomeLayoutComponent},
@@ -13,7 +14,8 @@ const routes:Routes = [
   {path: 'home' , component: HomeLayoutComponent},
   {path: 'watch-list', component: WatchListLayoutComponent},
   {path: 'my-feed', component: MyFeedLayoutComponent},
-  {path: 'cart', component: CartLayoutComponent}
+  {path: 'cart', component: CartLayoutComponent},
+  {path: 'admin', component: AddProductComponent}
 ];
 
 @NgModule({

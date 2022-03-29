@@ -12,8 +12,11 @@ constructor(private db: AngularFireDatabase) {
 
 }
 
-public getProducts() {
-    return this.db.list<ProductItemModel>("products").valueChanges();
-}
+    public getProducts() {
+        return this.db.list<ProductItemModel>("products").valueChanges();
+    }
 
+    public addProduct(product: ProductItemModel) {
+        this.db.list<ProductItemModel>("products").push(product)
+    }
 }
