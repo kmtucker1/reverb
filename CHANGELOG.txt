@@ -57,3 +57,8 @@ RELEASE NOTES FOR 03/29
         this new component is used to add a new product to the database
         it has a method addProduct() that sends user data to new method in services.
         the services addProduct() sends data to the database.
+
+RELEASE NOTES FOR 03/29
+    Added auth folder with contents "authentication.component"
+        this component adds authentication services
+    Added link for signup button on main page that goes to the authentication component.
