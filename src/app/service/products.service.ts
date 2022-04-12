@@ -19,4 +19,6 @@ constructor(private db: AngularFireDatabase) {
     public addProduct(product: ProductItemModel) {
         this.db.list<ProductItemModel>("products").push(product)
     }
+
+    
 }
